@@ -1,0 +1,36 @@
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Secrets and local values
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+secrets.*
+credentials.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated files
+out/
+dist/
+build/
+tmp/
+*.log
